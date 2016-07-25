@@ -1,0 +1,37 @@
+AddItemIntent add item {itemName}
+AddItemIntent add {itemName}
+AddItemIntent add {itemName} to the list
+AddItemIntent {itemName}
+
+DeleteItemIntent remove item {itemName}
+DeleteItemIntent remove {itemName}
+DeleteItemIntent remove {itemName} from the list
+DeleteItemIntent delete item {itemName}
+DeleteItemIntent delete {itemName}
+DeleteItemIntent delete {itemName} from the list
+
+HelpIntent help
+HelpIntent help me
+HelpIntent what can I ask you
+HelpIntent get help
+HelpIntent what commands can I ask
+HelpIntent what commands can I say
+HelpIntent what can I do
+HelpIntent what can I use this for
+HelpIntent what questions can I ask
+HelpIntent what can you do
+HelpIntent what do you do
+HelpIntent how do I use you
+HelpIntent how can I use you
+HelpIntent what can you tell me
+
+ReadListIntent what's on my list
+ReadListIntent what is on my list
+ReadListIntent read me my list
+ReadListIntent read me the list
+ReadListIntent read it off
+ReadListIntent tell me my list
+
+SearchListIntent is {itemName} on my list
+SearchListIntent is {itemName} on the list
+SearchListIntent did I add {itemName}

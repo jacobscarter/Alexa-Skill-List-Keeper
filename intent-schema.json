@@ -1,0 +1,43 @@
+{
+  "intents": [
+    {
+      "intent": "AddItemIntent",
+      "slots": [
+        {
+          "name": "itemName",
+          "type": "GROCERY_LIST_ITEMS"
+        }
+      ]
+    },
+    {
+      "intent": "DeleteItemIntent",
+      "slots": [
+        {
+          "name": "itemName",
+          "type": "GROCERY_LIST_ITEMS"
+        }
+      ]
+    },
+    {
+      "intent": "SearchListIntent",
+      "slots": [
+        {
+          "name": "itemName",
+          "type": "GROCERY_LIST_ITEMS"
+        }
+      ]
+    },
+    {
+      "intent": "HelpIntent",
+      "slots": []
+    },
+    {
+      "intent": "AMAZON.StopIntent",
+      "slots": []
+    },
+    {
+      "intent": "ReadListIntent",
+      "slots": []
+    }
+  ]
+}
